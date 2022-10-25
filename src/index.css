@@ -1,0 +1,238 @@
+body {
+    display: flex;
+    font-family: Calibri;
+    color: black;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+img {
+    max-width:600px;
+    width:100%;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: flex-end;
+    font-size: 14px;
+    padding: 30px 30px;
+}
+
+.primary {
+    background-color: greenyellow;
+}
+
+.secondary{
+    background-color: #bdff6b;
+}
+
+.tertiary {
+    background-color: #d4ffb0;
+}
+
+.test {
+    background-color: crimson;
+}
+
+button {
+    cursor: pointer;
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius: 10%;
+}
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    flex-grow: 0;
+}
+
+.friendsFrame {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    justify-content: flex-start;
+    width: 15%;
+    flex-grow: 0;
+}
+
+.divider {
+    display: flex;
+    width: 100px;
+    flex-grow: 1;
+}
+
+.friendsItem{
+    display: flex;
+    height: 50px;
+    padding: 0 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.shelf {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.toggleButtonOn {background-color: greenyellow}
+.toggleButtonOff:hover {background-color: #bdff6b}
+.toggleButtonOff {background-color: #d4ffb0}
+
+.vertSplit {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.submit {
+    border: 0;
+    border-radius: 10%;
+}
+
+input.submit:hover {
+    background-color: #bdff6b;
+}
+
+.textBox {
+    border: 0;
+    border-radius: 6px;
+    width: 90%;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+input.textBox:focus {
+    outline-width: 0;
+}
+
+p {
+    padding: 0 5px;
+    word-break: break-word;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.postFrame {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 12px 0;
+}
+
+.postIcon {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.commentFrame {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    border-radius: 1%;
+}
+
+.commentIcon {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+.postBox {
+    width: 550px;
+}
+
+hr {
+    height: 1px;
+    width: 96%;
+    background-color: greenyellow;
+    border: 0;
+    display: block;
+}
+
+textarea {
+    font-family: Calibri;
+    font-size: 14px;
+    wrap-option: hard;
+    overflow-y: hidden;
+    min-height: 25px;
+    white-space: normal;
+    resize: none;
+    height: auto;
+    width: 90%;
+}
+
+.textBox {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 6px;
+}
+
+.information {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    border-width: 0;
+    border-radius: 50%;
+}
+
+.information:hover {background-color: #bdff6b}
+
+
+.informationIcon {
+    width: 20px;
+    height: 20px;
+}
+
+Tab {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    width: 600px;
+    padding: 0px;
+}
